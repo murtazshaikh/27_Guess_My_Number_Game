@@ -45,6 +45,7 @@ const checkBtnHandler = () => {
 
 const againBtnHandler = () => {
     secretNumber = Math.trunc(Math.random()*20) + 1;
+    score = 10;
     scoreDisp.textContent = 10;
     messageDisp.textContent = "Start guessing....";
     numberDisp.textContent = "?";
